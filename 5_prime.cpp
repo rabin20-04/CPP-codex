@@ -15,9 +15,13 @@ int main()
         }
     }
     if (flag)
+    {
         cout << "not prime" << endl;
+    }
     else
+    {
         cout << "prime" << endl;
+    }
 
     return 0;
 }
