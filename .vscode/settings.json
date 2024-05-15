@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "exception": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "numbers": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp"
     }
 }

@@ -33,7 +33,7 @@ void todecimal(long int a)
     cout << "enter binary number";
     // cin >> a;
 
-    while (a != 0)
+    while (a > 0)
     {
         b = a % 10;
         d = d + b * pow(2, i);
