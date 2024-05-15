@@ -1,16 +1,21 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
-    int n, d, c=0;
-    cout << "Enter a number ";
+    int n, d, c = 0, num;
+    cout << "Enter a number " << endl;
     cin >> n;
-    while (n != 0)
+    num = n;
+    while (n > 0)
     {
-        d = n % 10;
-        c = c * 10 + d;
+        d = pow(n % 10, 3);
+        c += d;
         n = n / 10;
     }
-    cout << "Armstrong number is : " << c;
+    if (c == num)
+        cout << " is armstrong" << endl;
+    else
+        cout << " not armstrong" << endl;
     return 0;
 }
