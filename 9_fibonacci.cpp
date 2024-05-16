@@ -4,8 +4,8 @@ void fibo(int, int, int);
 int main()
 {
 
-    cout << " Enter the total no. of terms " << endl;
     int num, a = 0, b = 1;
+    cout << " Enter the total no. of terms " << endl;
     cin >> num;
     cout << a << endl
          << b << endl;
