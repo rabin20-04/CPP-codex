@@ -14,7 +14,7 @@ int main()
             cout << "Enter between 1 and 6 " << endl;
             continue;
         }
-        int digit = (rand() % 6) + 1;
+        int digit = (rand() % 6) + 1; //+1 removes 0 and adds 6 to the range
         if (digit == num)
         {
             cout << "Perfect guess! You are genius " << endl;
