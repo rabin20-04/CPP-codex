@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int l = 0;
-    string name, pass;
+    string name, passd;
     cout << "hello" << endl;
     cout << "Enter your name  " << endl;
     // cin >> name; // takes character before space  apple ball => apple
@@ -12,9 +12,14 @@ int main()
     cout << "enter password" << endl;
     while (l < 8 || l > 16)
     {
-        getline(cin, pass);
-        l = pass.length();
-        if (l < 8)
+        getline(cin, passd);
+        l = passd.length();
+
+        if (passd.empty())
+        {
+            cout << "You didn't enterd the password :Enter a passord" << endl;
+        }
+        else if (l < 8)
         {
             cout << "You have Entered " << l << " characters " << " : You must enter at least 8 characters" << endl;
         }
