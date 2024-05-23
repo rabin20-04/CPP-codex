@@ -10,7 +10,7 @@ int result;
 int main()
 {
     int temp, choice, converted;
-    cout << "Enter which  temperature you want to convert ! \n1) Celsius to  Fahrenheit\n2) Celsius to  kelvin\n3) Fahrenheit to Celsius \n4) Fahrenheit to kelvin\n5) Kelvin to Celsius \n6) Kelvin to  Fahrenheit" << endl;
+    cout << "Enter which  temperature you would like to convert ! \n1) Celsius to  Fahrenheit\n2) Celsius to  kelvin\n3) Fahrenheit to Celsius \n4) Fahrenheit to kelvin\n5) Kelvin to Celsius \n6) Kelvin to  Fahrenheit" << endl;
     cin >> choice;
     cout << "Enter the value of temperature" << endl;
     cin >> temp;
