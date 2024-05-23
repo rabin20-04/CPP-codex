@@ -12,7 +12,7 @@ int main()
     int temp, choice, converted;
     cout << "Enter which  temperature you want to convert ! \n1) Celsius to  Fahrenheit\n2) Celsius to  kelvin\n3) Fahrenheit to Celsius \n4) Fahrenheit to kelvin\n5) Kelvin to Celsius \n6) Kelvin to  Fahrenheit" << endl;
     cin >> choice;
-    cout << "Enter the value of temperature";
+    cout << "Enter the value of temperature" << endl;
     cin >> temp;
 
     switch (choice)
@@ -46,8 +46,11 @@ int main()
 
         converted = ktof(temp);
         break;
+    default:
+        cout << "Invalid choice";
+        return 1;
     }
-    cout << "The the required temperature is " << converted;
+    cout << "The the required temperature is " << converted << endl;
 
     return 0;
 }
