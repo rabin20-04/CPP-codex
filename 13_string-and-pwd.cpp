@@ -8,8 +8,9 @@ int main()
     cout << "Enter your name  " << endl;
     // cin >> name; // takes character before space  apple ball => apple
     getline(cin, name); // counts all character separated by space apple ball => apple ball
-    cout << name.length() << endl;
-    cout << "enter password" << endl;
+    // cout << name.length() << endl;
+    cout << "\nHello " << name << " \n\nLet's create your password" << endl;
+    cout << "Enter your password" << endl;
     while (l < 8 || l > 16)
     {
         getline(cin, passd);
