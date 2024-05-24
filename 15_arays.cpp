@@ -39,10 +39,7 @@ int main()
 
     // next method
 
-    string ch[] = {
-        "apple",
-        "app",
-        "ball"};
+    string ch[] = {"apple", "app", "ball"};
     for (string cha : ch)
     {
         cout << cha << endl;
