@@ -16,7 +16,8 @@ void search(int size, int caret[])
 
     do
     {
-        bool found = false;
+        bool found = false; // inside do() because it resets bool after searching a number
+        // so the new number is false initially
         cout << " Enter the number you are looking for : \n";
         cin >> num;
         for (int i = 0; i < size; i++)
