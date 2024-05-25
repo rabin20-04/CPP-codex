@@ -16,6 +16,9 @@ int getsum(int a[], int size)
     for (int i = 0; i < size; i++)
     // cant use i<sizeof(a) / sizeof(int) because
     // when we pass array to function ,it decays to pointers
+    // sizeof a give total size of array in bytes
+    // size of int will give the size of individual element
+    // 20*4/4
     {
         result += a[i];
     }
