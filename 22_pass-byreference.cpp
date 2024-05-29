@@ -14,9 +14,9 @@ int main()
     cin >> a >> b;
 
     passbyvalue(a, b);
-
     cout << "passbyvalue gives a = " << a << " and b = " << b << endl;
-    inbuiltfunction(a, b);
+
+        inbuiltfunction(a, b);
     cout << "After inbuilt funcion in main function  a = " << a << " and b =" << b << endl;
 
     passbyreference(a, b);
