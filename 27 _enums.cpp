@@ -45,6 +45,7 @@ int main()
         }
         cout << "\nDo you want to order more \n Enter N to quit" << endl;
         cin >> choice;
+        cout<<burger<< " "<<  pizza << " "<< coffee<<endl;
     } while (choice != "no" && choice != "n" && choice != "No" && choice != "N");
 
     return 0;
