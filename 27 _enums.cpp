@@ -5,7 +5,12 @@ using namespace std;
 //                  of paired named-integer constants.
 //                 GREAT if you have a set of potential options
 
-enum apple {burger,pizza,coffee,momo};
+enum apple {burger,pizza=9,coffee,momo};
+//enum apple {burger,pizza=9,coffee,momo};  burger =1 , coffee = 10 , momo = 11
+
+   //                  Ascii  value 
+//enum apple {burger='a',pizza,coffee,momo};  burger 96 then 97 then 98  
+
 
 int main()
 {
