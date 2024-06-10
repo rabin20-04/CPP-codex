@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 
-// objects = collection of attributes and methods
+// objects = collection of attributes and Methods
 // attributes means characteristics
 
 // eg book ,phone,copy, pen, table :
 // think phone as object and attributes as characteristics of phone
-// methods as what can phone do
+// Methods as what can phone do
 
-// method is a fn that belongs to a class
+// Method is a fn that belongs to a class
+
 
 class Student
 {
@@ -25,17 +26,30 @@ public:
         cout << "Student address : " << address << endl;
         cout << "Student section : " << section << endl;
     }
-    Student(string taken_name, int taken_roll_no, string taken_address,
-            string taken_section) : name(taken_name), roll_no(taken_roll_no),
-                                    address(taken_address), section(taken_section){};
 
-    // method -2  Student(string name, int roll_no, string address, string section)
+    // Method 1
+    //  Student(string taken_name, int taken_roll_no, string taken_address,
+    //          string taken_section) : name(taken_name), roll_no(taken_roll_no),
+    //                                  address(taken_address), section(taken_section){};
+
+    // Method -2  Student(string name, int roll_no, string address, string section)
 
     // {
     //     // this->name = name;
     //     // this->roll_no = roll_no;
     //     // this->address = address;
     //     // this->section = section;
+
+    // Method -3
+    Student(string nam, int roll_number, string addressss, string yoursection)
+    // if we use differet attribute than parameter name no need to use this->
+
+    {
+        name = nam;
+        roll_no = roll_number;
+        address = addressss;
+        section = yoursection;
+    };
 };
 
 int main()
