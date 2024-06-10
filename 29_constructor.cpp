@@ -25,17 +25,23 @@ public:
         cout << "Student address : " << address << endl;
         cout << "Student section : " << section << endl;
     }
+    Student(string taken_name, int taken_roll_no, string taken_address,
+            string taken_section) : name(taken_name), roll_no(taken_roll_no),
+                                    address(taken_address), section(taken_section){};
+
+    // method -2  Student(string name, int roll_no, string address, string section)
+
+    // {
+    //     // this->name = name;
+    //     // this->roll_no = roll_no;
+    //     // this->address = address;
+    //     // this->section = section;
 };
 
 int main()
 {
-    Student std_1, std_2;
-    std_1.name = "Steve";
-    std_1.roll_no = 40;
-    std_1.address = "Earth";
-    std_1.section = "AB";
 
-    std_1.display_student_info();
+    Student std_2(" ", 0, " ", " "), std_3("Abdul", 92, "Argentina", "ZX");
 
     cout << "\n Enter your Name : ";
     cin >> std_2.name;
@@ -47,6 +53,7 @@ int main()
     cin >> std_2.address;
 
     std_2.display_student_info();
+    std_3.display_student_info();
 
     return 0;
 }
