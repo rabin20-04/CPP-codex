@@ -1,4 +1,5 @@
-//  here to define fn outside the class iam writing 
+// declare a function inside a class then
+// define fn outside the class 
 //returntype classname :: fndefine
 #include <iostream>
 using namespace std;
