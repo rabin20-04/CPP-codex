@@ -1,3 +1,5 @@
+
+//It is usually used to solve the naming conflict in library 
 // Namespaces in C++ were introduced to address a specific problem that arises
 //  in large-scale software development: **name conflicts**.
 //   Let's dive into why namespaces are necessary and how they complement functions and classes.
