@@ -44,3 +44,12 @@ The ratinMaze function is called to find a path from the top-left corner to the 
 
 ### ratinMaze: 
 This is the core function that uses recursion and backtracking to find the path. It tries to move down and right from the current cell and backtracks if a move doesn't lead to a solution.
+
+
+# Getting started 
+### Clone this Repository
+```
+https://github.com/rabin20-04/OOP_cpp.git
+
+cd rat-in-maze
+```
