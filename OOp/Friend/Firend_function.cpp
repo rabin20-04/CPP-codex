@@ -16,11 +16,13 @@ public:
         cout << "Enter imaginary  part:  ";
         cin >> imag;
     }
+
     void showvalue()
     {
         cout << "(" << real << "+" << imag << "i)";
     }
 };
+
 Complex add(Complex cc1, Complex cc2)
 {
     Complex temp;
@@ -28,6 +30,7 @@ Complex add(Complex cc1, Complex cc2)
     temp.imag = cc1.imag + cc2.imag;
     return temp;
 }
+//  temp is a variable that holds an object of the Complex class.
 
 int main()
 {
