@@ -9,6 +9,10 @@ private:
 public:
     Count() : input_data(5) {}
     Count(int a) : input_data(a) {}
+    // error --------- cant accepts through assignment  Count(int a)
+    // {
+    //     input_data=a;
+    // }
     void display()
     {
         cout << input_data << endl;
