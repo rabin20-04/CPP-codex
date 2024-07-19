@@ -58,6 +58,9 @@ void print_element()
     primes.push_back(4);
     primes.push_back(5);
     cout << "Element at place 2 is: " << primes[1] << endl;
+    cout << "Element at place 1 is: " << primes[0] << endl;
+    primes[0] = 9; //---we can also change the value of the elements insider the vector
+    cout << "Element at place 1 is: " << primes[0] << endl;
 }
 
 // {2,3,4,5}
