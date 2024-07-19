@@ -17,7 +17,7 @@ using namespace std;
 //     // primes.push_back(4);
 //     // primes.push_back(5);
 
-//     cout << "The size of vector is: " << primes.size() << endl;
+//     cout << "The size of vector is: " << primes.size()<<" elements" << endl;
 
 //     return 0;
 // }
@@ -34,7 +34,7 @@ int main()
     primes.push_back(4);
     primes.push_back(5);
 
-    cout << "The size of vector is:  " << primes.size() << endl; //---- to get the number of elements in the vector  use .size()
+    cout << "The size of vector is:  " << primes.size() << " elements" << endl; //---- to get the number of elements in the vector  use .size()
 
     //  cout << "Enter " << sizeof(primes) << endl; //--- size of gives size of the data type not of the array
 
