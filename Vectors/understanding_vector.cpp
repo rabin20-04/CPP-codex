@@ -1,4 +1,8 @@
 
+// Flexibility: std::vector is more flexible due to its ability to change size dynamically.
+// Memory Management: std::vector handles memory management internally, unlike arrays where you need to manage it yourself.
+// Safety and Convenience: std::vector provides bounds checking and other utility functions (e.g., .push_back(), .size())
+// that make it safer and more convenient to use.
 
 #include <iostream>
 #include <vector>
