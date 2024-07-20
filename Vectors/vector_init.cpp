@@ -28,5 +28,3 @@ int main()
 
 // vector<int> vector3(5, 12);
 // Here, 5 is the size of the vector and 12 is the value.
-
-// https://www.programiz.com/cpp-programming/vectors
