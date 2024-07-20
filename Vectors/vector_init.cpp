@@ -6,7 +6,8 @@ int main()
 {
     vector<int> vec1 = {1, 2, 3, 4, 5};
     vector<int> vec2{11, 22, 33, 44, 55}, vec3;
-
+    cout << "Element at Index 2: " << vec2[1] << endl;
+    cout << "Element at Index 2: " << vec2.at(1) << endl;
     cout << "Vec1 = {";
     for (int i = 0; i < vec1.size(); i++)
     {
