@@ -33,6 +33,15 @@ int main()
     {
         cout << i << " ";
     }
+
+    // remove the last element
+    vec2.pop_back();
+    cout << "\nvec2 after removing : {";
+    for (int &i : vec2)
+    {
+        cout << i << " ";
+    }
+    cout << "}";
     return 0;
 }
 
