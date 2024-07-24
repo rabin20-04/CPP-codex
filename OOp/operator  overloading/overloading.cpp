@@ -11,9 +11,13 @@ private:
 private:
     void get_data()
     {
-        cout << "Enter " << endl;
+        cout << "Enter value: " << endl;
+        cin >> a;
     }
 };
+// c1=a1+b1
+// reference is a1 and under we are passing b1 as argument and
+// storing in c2
 
 int main()
 {
