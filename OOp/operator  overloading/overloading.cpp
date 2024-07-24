@@ -24,7 +24,7 @@ private:
 apple operator+(apple b1)
 {
     apple c1;
-    c1.a = a + b1.a;
+    // c1.a = a + b1.a;
 }
 // https://www.youtube.com/watch?v=C6efeV4kKwQ
 
