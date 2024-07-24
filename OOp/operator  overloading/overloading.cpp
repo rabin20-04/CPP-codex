@@ -19,6 +19,15 @@ private:
 // reference is a1 and under we are passing b1 as argument and
 // storing in c2
 
+// reference date type
+
+apple operator+(apple b1)
+{
+    apple c1;
+    c1.a = a + b1.a;
+}
+// https://www.youtube.com/watch?v=C6efeV4kKwQ
+
 int main()
 {
 
