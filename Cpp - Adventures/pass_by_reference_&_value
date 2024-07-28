@@ -11,12 +11,16 @@ int main()
 {
     int a, b;
     cout << " Enter two numbers ";
-    cin >> a >> b;
+    cout << "\nFirst : ";
+    cin >> a;
+    cout << "Second : ";
+
+    cin >> b;
 
     passbyvalue(a, b);
-    cout << "passbyvalue gives a = " << a << " and b = " << b << endl;
+    cout << "after passbyvalue  , in main it gives  a = " << a << " and b = " << b << endl;
 
-        inbuiltfunction(a, b);
+    inbuiltfunction(a, b);
     cout << "After inbuilt funcion in main function  a = " << a << " and b =" << b << endl;
 
     passbyreference(a, b);
@@ -35,6 +39,7 @@ void passbyvalue(int a, int b)
     int temp = a;
     a = b;
     b = temp;
+    cout << "IN pass by value function a = " << a << " b = " << b << endl;
 }
 void inbuiltfunction(int a, int b)
 {
