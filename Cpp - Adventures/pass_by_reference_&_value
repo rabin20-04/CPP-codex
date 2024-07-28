@@ -11,9 +11,9 @@ int main()
 {
     int a, b;
     cout << " Enter two numbers ";
-    cout << "\nFirst : ";
+    cout << "\nFirst a: ";
     cin >> a;
-    cout << "Second : ";
+    cout << "Second b: ";
 
     cin >> b;
 
