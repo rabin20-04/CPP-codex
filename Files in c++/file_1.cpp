@@ -32,12 +32,12 @@ void Employee ::writedata()
     if (outfile.is_open())
     {
 
-        // mistake outfile << name << address << phonenumber;
-        //  either outfile << name << "" << address << "" << phonenumber;
-        // or
-        outfile << name;
-        outfile << address;
-        outfile << phonenumber;
+        // mistake outfile << name << address << phonenumber; Ou must provide space to display
+        outfile << name << " " << address << " " << phonenumber;
+        // mistake
+        //  outfile << name;
+        //  outfile << address;
+        //  outfile << phonenumber;
     }
     else
     {
@@ -71,7 +71,7 @@ void Employee::showdata()
 int main()
 {
     Employee emp[10];
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 4; i++)
     {
         cout << "Enter the details of employee! : " << endl;
         emp[i].inputdata();
