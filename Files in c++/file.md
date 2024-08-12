@@ -65,8 +65,17 @@ To read from a file, you open it using `ifstream`:
 - **Explanation**:
   - `"example.txt"` is the name of the file to be read. The file must exist; otherwise, the open operation will fail.
   - The file is opened in the default mode, which is `std::ios::in` for input file streams (`ifstream`). This mode is used for reading data from a file.
+## Explicit Mode (ios::in | ios::out):
+ `fstream file("apple.txt")` vs `fstream file("apple.txt", ios::in | ios::out);`
 
-#### **2.3. Creating and Opening a File for Both Reading and Writing (`std::fstream`)**
+Guarantees that the file is opened for both reading and writing.
+Makes the code more readable by explicitly stating the mode in which the file is opened.
+Default Constructor (fstream file("apple.txt");):
+
+Simpler syntax but relies on the default behavior of fstream, which might not always be clear to someone reading your code.
+The default mode generally includes both std::ios::in and std::ios::out, but it’s safer to be explicit if you need specific behavior.
+
+### **2.3. Creating and Opening a File for Both Reading and Writing (`std::fstream`)**
 
 If you need to both read from and write to a file, use `fstream`:
 
