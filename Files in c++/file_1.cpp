@@ -12,12 +12,12 @@ private:
     int phonenumber;
 
 public:
-    void getsdata();
+    void inputdata();
     void showdata();
     void writedata();
     void displaydata();
 };
-void Employee::getsdata()
+void Employee::inputdata()
 {
     cout << "Enter your name: " << endl;
     cin >> name;
@@ -33,10 +33,11 @@ void Employee ::writedata()
     {
 
         // mistake outfile << name << address << phonenumber;
-        outfile << name << "" << address << "" << phonenumber;
-        // or  outfile << name ;
-        // outfile << address;
-        // outfile << phonenumber;
+        //  either outfile << name << "" << address << "" << phonenumber;
+        // or
+        outfile << name;
+        outfile << address;
+        outfile << phonenumber;
     }
     else
     {
@@ -47,7 +48,7 @@ void Employee ::writedata()
 void Employee ::displaydata()
 {
     ifstream infile("employees.txt");
-    if (infile.is_open)
+    if (infile.is_open())
     {
         while (infile >> name >> address >> phonenumber)
         {
@@ -73,7 +74,7 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         cout << "Enter the details of employee! : " << endl;
-        emp[i].getsdata();
+        emp[i].inputdata();
         emp[i].writedata();
     }
 
