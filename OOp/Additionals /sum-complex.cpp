@@ -22,7 +22,7 @@ public:
     {
         real = s1.real + s2.real;
         imag = s2.imag + s1.imag;
-        cout << real << " + " << imag << "i" << endl;
+        // cout << real << " + " << imag << "i" << endl;
     };
 };
 
@@ -39,6 +39,8 @@ int main()
     s2.show_value();
     cout << " = ";
     s3.sum_numbers(s1, s2);
+     s3.show_value();
+    cout<<endl;
 
     return 0;
 }
