@@ -11,7 +11,7 @@ public:
     complex(int r, int c) : real(r), imag(c) {}
     complex operator+(complex c1)
     {
-        complex temp;
+        complex temp;                       
         temp.real = real + c1.real;
         temp.imag = imag + c1.imag;
         return temp;
@@ -36,3 +36,5 @@ int main()
 
     return 0;
 }
+
+// line 14 temp is an object to store real and imag part 
