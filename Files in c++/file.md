@@ -552,3 +552,5 @@ int main() {
 - **`std::fstream`**: Used for both reading and writing.
 - **File Modes**: Determine how the file is opened and used (`std::ios::out`, `std::ios::in`, `std::ios::app`, etc.).
 - **Error Handling**: Always check if the file is opened successfully using `is_open()` before performing file operations.
+
+[file](apple.com)
