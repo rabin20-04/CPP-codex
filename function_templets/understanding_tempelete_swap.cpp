@@ -3,8 +3,15 @@ using namespace std;
 
 // Function template to swap two values of the same data type
 template <typename T>
+
+// or    template <class T>
+
 void swapValues(T &a, T &b)
+
+// or T swapValues(T &a, T &b)
+
 {
+
     T temp = a;
     a = b;
     b = temp;
