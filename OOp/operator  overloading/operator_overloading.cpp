@@ -34,7 +34,7 @@ int main()
     r.display();
     return 0;
 
-    return 0;
+
 }
 
 // line 14 temp is an object to store real and imag part 
